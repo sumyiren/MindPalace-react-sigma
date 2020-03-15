@@ -12,6 +12,8 @@ export NeoGraphItemsProducers from './NeoGraphItemsProducers';
 export RandomizeNodePositions from './RandomizeNodePositions';
 export SigmaEnableWebGL from './SigmaEnableWebGL';
 export SigmaEnableSVG from './SigmaEnableSVG';
+export DragNodes from './DragNodes';
+
 
 import Sigma from './Sigma';
 export default Sigma;

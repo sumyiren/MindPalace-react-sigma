@@ -14,6 +14,7 @@ const config = {
     'parsers.gexf': [ sigmaPluginsRoot + '/sigma.parsers.gexf/gexf-parser.js',
                       sigmaPluginsRoot + '/sigma.parsers.gexf/sigma.parsers.gexf.js' ],
     'neo4j.cypher': sigmaPluginsRoot + '/sigma.neo4j.cypher/sigma.neo4j.cypher.js',
+    'neo4j.cypher2': sigmaPluginsRoot + '/sigma.neo4j.cypher2/sigma.neo4j.cypher2.js',
     'plugins.filter': sigmaPluginsRoot + '/sigma.plugins.filter/sigma.plugins.filter.js',
     'layout.forceAtlas2': [ sigmaPluginsRoot + '/sigma.layout.forceAtlas2/supervisor.js',
                             sigmaPluginsRoot + '/sigma.layout.forceAtlas2/worker.js'],

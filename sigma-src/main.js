@@ -1,46 +1,46 @@
 // Sigma build is quite big and not friendly for webpack, therefore we use custom import
 
 // Core:
-import "@maxsparrow/sigma/src/sigma.core.js"
+import "MindPalace-sigma.js/src/sigma.core.js"
 
 // Utils:
-import "@maxsparrow/sigma/src/conrad.js"
-import "@maxsparrow/sigma/src/utils/sigma.utils.js"
-import "@maxsparrow/sigma/src/utils/sigma.polyfills.js"
+import "MindPalace-sigma.js/src/conrad.js"
+import "MindPalace-sigma.js/src/utils/sigma.utils.js"
+import "MindPalace-sigma.js/src/utils/sigma.polyfills.js"
 
 // Main classes:
-import "@maxsparrow/sigma/src/sigma.settings.js"
-import "@maxsparrow/sigma/src/classes/sigma.classes.dispatcher.js"
-import "@maxsparrow/sigma/src/classes/sigma.classes.configurable.js"
-import "@maxsparrow/sigma/src/classes/sigma.classes.graph.js"
-import "@maxsparrow/sigma/src/classes/sigma.classes.camera.js"
-import "@maxsparrow/sigma/src/classes/sigma.classes.quad.js"
-import "@maxsparrow/sigma/src/classes/sigma.classes.edgequad.js"
+import "MindPalace-sigma.js/src/sigma.settings.js"
+import "MindPalace-sigma.js/src/classes/sigma.classes.dispatcher.js"
+import "MindPalace-sigma.js/src/classes/sigma.classes.configurable.js"
+import "MindPalace-sigma.js/src/classes/sigma.classes.graph.js"
+import "MindPalace-sigma.js/src/classes/sigma.classes.camera.js"
+import "MindPalace-sigma.js/src/classes/sigma.classes.quad.js"
+import "MindPalace-sigma.js/src/classes/sigma.classes.edgequad.js"
 
 // Captors:
-import "@maxsparrow/sigma/src/captors/sigma.captors.mouse.js"
-import "@maxsparrow/sigma/src/captors/sigma.captors.touch.js"
+import "MindPalace-sigma.js/src/captors/sigma.captors.mouse.js"
+import "MindPalace-sigma.js/src/captors/sigma.captors.touch.js"
 
 // Renderers:
-import "@maxsparrow/sigma/src/renderers/sigma.renderers.canvas.js"
+import "MindPalace-sigma.js/src/renderers/sigma.renderers.canvas.js"
 
 // Sub functions per engine:
-import "@maxsparrow/sigma/src/renderers/canvas/sigma.canvas.labels.def.js"
-import "@maxsparrow/sigma/src/renderers/canvas/sigma.canvas.hovers.def.js"
-import "@maxsparrow/sigma/src/renderers/canvas/sigma.canvas.nodes.def.js"
-import "@maxsparrow/sigma/src/renderers/canvas/sigma.canvas.edges.def.js"
-import "@maxsparrow/sigma/src/renderers/canvas/sigma.canvas.edgehovers.def.js"
-import "@maxsparrow/sigma/src/renderers/canvas/sigma.canvas.extremities.def.js"
+import "MindPalace-sigma.js/src/renderers/canvas/sigma.canvas.labels.def.js"
+import "MindPalace-sigma.js/src/renderers/canvas/sigma.canvas.hovers.def.js"
+import "MindPalace-sigma.js/src/renderers/canvas/sigma.canvas.nodes.def.js"
+import "MindPalace-sigma.js/src/renderers/canvas/sigma.canvas.edges.def.js"
+import "MindPalace-sigma.js/src/renderers/canvas/sigma.canvas.edgehovers.def.js"
+import "MindPalace-sigma.js/src/renderers/canvas/sigma.canvas.extremities.def.js"
 
 // Middlewares:
-import "@maxsparrow/sigma/src/middlewares/sigma.middlewares.rescale.js"
-import "@maxsparrow/sigma/src/middlewares/sigma.middlewares.copy.js"
+import "MindPalace-sigma.js/src/middlewares/sigma.middlewares.rescale.js"
+import "MindPalace-sigma.js/src/middlewares/sigma.middlewares.copy.js"
 
 // Miscellaneous:
-import "@maxsparrow/sigma/src/misc/sigma.misc.animation.js"
-import "@maxsparrow/sigma/src/misc/sigma.misc.bindEvents.js"
-import "@maxsparrow/sigma/src/misc/sigma.misc.bindDOMEvents.js"
-import "@maxsparrow/sigma/src/misc/sigma.misc.drawHovers.js"
+import "MindPalace-sigma.js/src/misc/sigma.misc.animation.js"
+import "MindPalace-sigma.js/src/misc/sigma.misc.bindEvents.js"
+import "MindPalace-sigma.js/src/misc/sigma.misc.bindDOMEvents.js"
+import "MindPalace-sigma.js/src/misc/sigma.misc.drawHovers.js"
 
 let sigma = window.sigma
 
