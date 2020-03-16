@@ -30,7 +30,7 @@ const config = {
   module: {
     rules: [
       { test: /\.js/, use: [babelLoader], exclude: [/node_modules/] },
-      { test: /\@maxsparrow\/sigma\/.*\.js/, use: [importsLoader] },
+      { test: /\MindPalace-sigma.js\/sigma\/.*\.js/, use: [importsLoader] },
     ],
 //    noParse: [/\/sigma\-react\//]
   },

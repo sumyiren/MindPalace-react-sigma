@@ -3,8 +3,8 @@ import { setOptions } from '@storybook/addon-options'
 import { withInfo } from '@storybook/addon-info';
 
 setOptions({
-  name: 'REACT-SIGMA GITHUB',
-  url: 'https://github.com/dunnock/react-sigma',
+  name: 'MindPalace-react-sigma GITHUB',
+  url: 'https://github.com/dunnock/MindPalace-react-sigma',
   goFullScreen: false,
   showLeftPanel: true,
   showDownPanel: true,
